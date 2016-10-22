@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="common.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			var wap = document.getElementsByClassName('wap')[0];
+			var oDiv2 = document.getElementById('div2');
+			console.log(find(wap,'span'));
+			//console.log(document.getElementById('ha2'));
+		}
+	</script>
+	<style type="text/css">
+		.wap{
+			height:400px;
+			width:400px;
+			background:red;
+		}
+		.div1{
+			height:100px;
+			width:100px;
+			background:blue;
+		}
+		.div2{
+			height:100px;
+			width:100px;
+			background:green;
+		}
+		#ha2{
+			height:100px;
+			width:100px;
+			background:orange;
+		}
+		.span1{
+			height:50px;
+			width:50px;
+			background:yellow;
+		}
+	</style>
+</head>
+<body>
+	<div class="wap">
+		<div class="div1">
+			<span class="span1">31231</span>
+		</div>
+		<div class="div2"></div>
+		<div id="ha2"><span>21312</span></div>
+	</div>
+</body>
+</html>
