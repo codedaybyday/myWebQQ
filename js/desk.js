@@ -746,6 +746,7 @@ var desk = (function(){
 					//console.log(_this.desk_main.parentNode);
 					setCookies('skin',src);
 					_this.deskTop.style.background = 'url('+src+') no-repeat center center';
+					_this.deskTop.style.backgroundSize = 'cover';
 				};
 			}
 			_this.bg.style.height = items[items.length-1].offsetHeight+items[items.length-1].offsetTop+'px';

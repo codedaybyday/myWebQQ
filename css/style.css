@@ -22,6 +22,7 @@ html,body{
 	background:url(../images/bg/bg01.jpg) no-repeat center center;
 	overflow:hidden;
 	position:relative;
+	background-size: cover;
 }
 .desk_top_navbar{
 	height:58px;
