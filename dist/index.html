@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<title>webQQ</title>
+	<link rel="stylesheet" type="text/css" href="http://www.liubeijing.ren/demo/myWebQQ/css/style_094ff3c.css">
+	<script type="text/javascript" src="http://www.liubeijing.ren/demo/myWebQQ/js/common_a561a8a.js"></script>
+	<script type="text/javascript" src="http://www.liubeijing.ren/demo/myWebQQ/js/window_2f84357.js"></script>
+	<script type="text/javascript" src="http://www.liubeijing.ren/demo/myWebQQ/js/audioPlayer_27db383.js"></script>
+	<script type="text/javascript" src="http://www.liubeijing.ren/demo/myWebQQ/js/data_c9a6a0b.js"></script>
+	<script type="text/javascript" src="http://www.liubeijing.ren/demo/myWebQQ/js/desk_4961036.js"></script>
+	<script type="text/javascript" src="http://www.liubeijing.ren/demo/myWebQQ/js/index_bc2e25c.js"></script>
+</head>
+<body onselectstart="return false"><!--让整个页面不可选-->
+	<div id="desk-top">
+		<!--顶部数字导航-->
+		<div class="desk_top_navbar">
+			<div class="desk_top_navbar_wrap">
+				<div class="user"><img src="/images/user.png"/></div>
+				<div class="pageNumber"><!--数字动态生成--></div>
+				<div class="tool">
+					<div class="g_view"></div>
+					<div class="search"></div>
+				</div>
+			</div>
+		</div>
+		<!--桌面-->
+		<div class="desk_main">
+			<!--桌面app区域，动态生成-->
+		</div>
+		<!--侧栏菜单-->
+		<div class="side_bar">
+			<div class="side_bar_app">
+				<!--侧栏app区域-->
+			</div>
+			<div class="side_bar_settings">
+				<div class="row1">
+					<a class="setting_ico pingyin"></a><a class="setting_ico sidebar_volume"></a>
+				</div>
+				<div class="row1">
+					<a class="setting_ico set"></a><a class="setting_ico pannel"></a>	
+				</div>
+				<div class="row2">
+					<a class="q" href="javascript:void(0);"></a>
+				</div>
+				<div class="side_bar_menu">
+					<div class="higher">
+						<span class="login">请登录</span>
+						<span class="lock">锁定</span>
+						<span class="help">帮助</span>
+					</div>
+					<div class="lower">添加到收藏夹</div>
+					<div class="lower">保存桌面快捷方式</div>
+					<div class="lower">下载客户端</div>
+					<div class="lower">关于webQQ</div>
+					<div class="lower">新手指导</div>
+					<div class="higher"><span class="exit">退出</span></div>
+				</div>
+			</div>
+		</div>
+		<ul class="textMenu">
+			<!--动态生成菜单-->
+		</ul>
+		<ul class="appTextMenu">
+			<!-- <li class="textMenu_item">打开应用</li>
+			<li class="textMenu_item">移动到</li>
+			<li class="textMenu_item">删除应用</li> -->
+		</ul>
+		<div class="skin">
+			<h2 class="skin_title"><span class="skin_text">Q+ DeskTop 桌面壁纸</span><span class="close"></span></h2>
+			<div class="bg_wrap">
+				<div class="bg">
+					<!--皮肤-->
+				</div>
+			</div>
+			<div class="scrollBar"><span class="scrollBar_item"></span></div>
+		</div>
+		<!--时钟-->
+		<canvas id="clock" height=220 width=220 ></canvas>
+		<!--音乐播放器-->
+		<div class="audio_player">
+			<div class="audio_pannel">
+				<div class="col1">
+					<div class="circle1">
+						<div class="circle2">
+							<div class="circle3"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col2">
+					<div class="status_bar">
+						<div class="volume_ctrl"></div><span class="dot"></span>
+					</div>
+				</div>
+				<div class="col3">
+					<span class="volume"></span>
+					<ul class="play_way">
+						<li class="icon-loop2 display_none" title="单曲循环"></li>
+						<li class="icon-infinite" title="顺序播放"></li>
+						<li class="icon-shuffle display_none" title="随机播放"></li>
+					</ul>
+				</div>
+			</div>
+			<audio ></audio>
+			<div class="play_ctrl">
+				<ul class="ctrl_btn">
+					<li class="icon-backward2"></li>
+					<li class="icon-play3"></li>
+					<li class="icon-forward3"></li>
+				</ul>
+				<div class="time_line_wrap">
+					<div class="time_line">
+						<div class="time_go"></div><span class="time_dot"></span>
+					</div>
+				</div>
+				<div class="time_show">00:00/00:00</div>
+			</div>
+			<ul class="list">
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
