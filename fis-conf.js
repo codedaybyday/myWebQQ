@@ -11,8 +11,8 @@ fis.match('**css',{
 	useHash:true,
 	release: '$0'
 });
-fis.match('**png', {
-  optimizer: fis.plugin('png-compressor'),
+fis.match('**{png,jpg,bmp,gif,ttf,woff}', {
+  domain: 'http://www.liubeijing.ren/demo/myWebQQ'
 });
 fis.match('::package', {
   spriter: fis.plugin('csssprites')
